@@ -1,0 +1,6 @@
+a = open('file1.txt', 'r', encoding='UTF-8')
+b = a.read()
+a.close()
+c = open('file2.txt', 'w', encoding='UTF-8')
+c.write(b)
+c.close()
